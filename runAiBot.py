@@ -313,7 +313,7 @@ def apply_filters() -> None:
         if benefits or commitments: buffer(recommended_wait)
 
         # Wait for and click Show results
-        show_results_button: WebElement = WebDriverWait(driver, 8).until(
+        show_results_button: WebElement = WebDriverWait(driver, 12).until(
             EC.element_to_be_clickable((By.XPATH, "//button[contains(@aria-label, 'Apply current filters to show') or contains(@data-test,'show-results')]"))
         )
         scroll_to_view(driver, show_results_button)
@@ -390,15 +390,20 @@ def get_job_main_details(job: WebElement, blacklisted_companies: set, rejected_j
             job_details_button.click()
     except Exception:
         print_lg(f'Failed to click "{title} | {company}" job on details button. Job ID: {job_id}!')
-        # Retry after refinding element (stale element recovery)
-        try:
-            discard_job()
-            job_details_button = job.find_element(By.TAG_NAME, 'a')
-            scroll_to_view(driver, job_details_button, True)
-            job_details_button.click()
-        except Exception:
-            # Re-raise to let outer flow handle
-            raise
+        # Retry after re-finding element (without discarding anything)
+        for _ in range(2):
+            try:
+                job_details_button = job.find_element(By.TAG_NAME, 'a')
+                scroll_to_view(driver, job_details_button, True)
+                try:
+                    WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.XPATH, ".//a")))
+                    job_details_button.click()
+                except Exception:
+                    # JS click fallback
+                    driver.execute_script("arguments[0].click();", job_details_button)
+                break
+            except Exception:
+                buffer(1)
     buffer(click_gap)
     return (job_id,title,company,work_location,work_style,skip)
 
