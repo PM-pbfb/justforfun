@@ -997,12 +997,26 @@ def apply_to_jobs(search_terms: list[str]) -> None:
                             " or (@data-control-name='jobdetails_topcard_inapply')"
                             
                         )
-                        easy_btn = WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.XPATH, easy_apply_xpath)))
+                        easy_btn = WebDriverWait(driver, 8).until(EC.element_to_be_clickable((By.XPATH, easy_apply_xpath)))
                         scroll_to_view(driver, easy_btn)
                         easy_btn.click()
                         easy_apply_clicked = True
                     except Exception:
                         easy_apply_clicked = False
+                        # Fallback: try generic Apply button and detect if Easy Apply modal appears (helps on mac when aria labels differ)
+                        try:
+                            generic_apply_xpath = ".//button[contains(@class,'jobs-apply-button')]"
+                            gen_btn = WebDriverWait(driver, 4).until(EC.element_to_be_clickable((By.XPATH, generic_apply_xpath)))
+                            scroll_to_view(driver, gen_btn)
+                            gen_btn.click()
+                            try:
+                                # If Easy Apply modal appears, treat as Easy Apply
+                                find_by_class(driver, "jobs-easy-apply-modal")
+                                easy_apply_clicked = True
+                            except Exception:
+                                pass
+                        except Exception:
+                            pass
 
                     if easy_apply_clicked:
                         try: 
