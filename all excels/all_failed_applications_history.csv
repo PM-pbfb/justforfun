@@ -1,0 +1,721 @@
+Job ID,Job Link,Resume Tried,Date listed,Date Tried,Assumed Reason,Stack Trace,External Job link,Screenshot Name
+3813178634,https://www.linkedin.com/jobs/view/3813178634,Pending,2025-08-04 18:28:06.156331,2025-08-04 18:41:06.247968,Asking for Security clearance,"
+About the job
+JOB DESCRIPTION
+
+Preferred Candidate Profile: Please read the Job Description carefully
+Experience:
+· Total of 8 to 12 years of experience
+· 8+ years of hands-on programming experience.
+· 4+ years in project management roles.
+· 4+ years in client-facing roles, handling expectations and technical discussions.
+
+Technical Skills:
+· Expertise in Full-Stack Development: Proficient in LAMP, ROR, or MEAN stack programming.
+· AWS DevOps & Infrastructure Management: Hands-on experience with EC2, RDS, S3, ACM, SES, SNS, IAM, CI/CD pipelines, and containerization (Docker/Kubernetes preferred).
+· Mobile App Development Lifecycle: Strong understanding of mobile app ecosystems, including IoT integration (preferred).
+ Project Management Skills:
+· Proficiency in Jira Expert in managing epics, timelines, user stories, tasks, backlog, sprint planning, and velocity tracking.
+· Strong grasp of project estimation, resource allocation, and risk assessment.
+ Additional Skills:
+· Third-party Integrations: Experience with Stripe, Twilio, Firebase, Chart APIs, Google API platforms, OAuth/SSO logins, and in-app purchases.
+· App Store Processes: Ability to interact with Apple and Google app store support teams, manage privacy declarations, and handle compliance.
+
+Soft Skills:
+· Excellent client management and stakeholder communication.
+· Leadership and Mentorship abilities for guiding technical teams.
+· Problem-solving mindset with the ability to deliver under time and resource constraints.
+
+Role & Responsibilities:
+
+As a Technical Project Manager, you will be responsible for overseeing complex, client-facing technical projects, ensuring on-time delivery while maintaining technical excellence.
+
+Project & Client Management:
+· End-to-end project lifecycle management from planning to execution & delivery.
+· Client collaboration: Define requirements, manage expectations, and secure approvals.
+· Milestone tracking & invoicing: Ensure timely delivery and payment clearance.
+
+Technical Leadership:
+· Architecting technical solutions using LAMP, ROR, or MEAN stacks.
+· Designing & maintaining ERDs, data models, and API documentation before development.
+· AWS Infrastructure Management: Configure and troubleshoot EC2, RDS, S3, CI/CD, IAM, and containerized deployments.
+· Ensuring seamless third-party integrations with platforms like Stripe, Twilio, Firebase, and Google APIs.
+ Mobile & App Store Management:
+· Oversee mobile app development lifecycles across iOS & Android.
+· Manage interactions with Apple/Google app store teams, ensuring smooth review and approval processes.
+ Team & Process Management:
+· Lead & mentor technical teams, ensuring best coding practices & scalable architectures.
+· Oversee Jira-based project workflows, including epics, sprints, backlog management, and bug tracking.
+· Ensure delivery within existing team resources, managing constraints effectively.
+
+Ideal Candidate Traits:
+· A hands-on leader who can architect solutions, troubleshoot technical issues, and manage teams.
+· Client-focused with excellent stakeholder management skills.
+· Process-driven mindset with a deep understanding of Agile, Scrum, and sprint planning.
+
+Perks & Benefits:
+· Work on cutting-edge projects with high visibility across industries.
+· Collaborative and dynamic work environment fostering innovation.
+· Competitive salary tailored to expertise and experience.
+· Exposure to IoT, AI, Cloud Computing, and global tech ecosystems.
+· Career growth opportunities with challenging technical and managerial responsibilities.
+ 
+
+Found ""Clearance"" or ""Polygraph"". Skipping this job!
+",Skipped,Not Available
+4277394270,https://www.linkedin.com/jobs/view/4277394270,Pending,2025-08-04 18:25:59.428941,2025-08-04 18:42:07.794007,Problem in Easy Applying,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff78486e415+77285]
+	GetHandleVerifier [0x0x7ff78486e470+77376]
+	(No symbol) [0x0x7ff784639a6a]
+	(No symbol) [0x0x7ff784690406]
+	(No symbol) [0x0x7ff7846906bc]
+	(No symbol) [0x0x7ff7846e3ac7]
+	(No symbol) [0x0x7ff7846b864f]
+	(No symbol) [0x0x7ff7846e087f]
+	(No symbol) [0x0x7ff7846b83e3]
+	(No symbol) [0x0x7ff784681521]
+	(No symbol) [0x0x7ff7846822b3]
+	GetHandleVerifier [0x0x7ff784b51efd+3107021]
+	GetHandleVerifier [0x0x7ff784b4c29d+3083373]
+	GetHandleVerifier [0x0x7ff784b6bedd+3213485]
+	GetHandleVerifier [0x0x7ff78488884e+184862]
+	GetHandleVerifier [0x0x7ff78489055f+216879]
+	GetHandleVerifier [0x0x7ff784877084+113236]
+	GetHandleVerifier [0x0x7ff784877239+113673]
+	GetHandleVerifier [0x0x7ff78485e298+11368]
+	BaseThreadInitThunk [0x0x7ffd2929e8d7+23]
+	RtlUserThreadStart [0x0x7ffd2aa3c34c+44]
+",Easy Applied,Not Available
+4278201738,https://www.linkedin.com/jobs/view/4278201738,Pending,2025-08-05 12:58:55.708375,2025-08-05 13:03:55.823595,Found a Bad Word in About Job,"
+About the job
+Product Manager:
+
+We are seeking a passionate and driven Product Manager to join our growing team. You will be responsible for the entire product lifecycle, from ideation to launch and beyond. You will be the voice of the customer and work closely with cross-functional teams to ensure our products are successful.
+
+Mission:
+We’re not just rolling out some internal apps without a future. We’re building one unified platform to empower our employees. As our Product Manager, you’ll own the roadmap across multiple modules, manage stakeholders, and keep the engineering team running at pace—all while ensuring what we build actually helps medical reps and distributors in the field.
+
+What you'll own:
+Lead product planning and backlog for software development projects, moving across products effortlessly
+Help to write and prioritize user stories, acceptance criteria, and wireframes, while understanding minimal technical risks
+Partner regularly with cross‑functional teams to ensure alignment on feature development and prioritization (as the strongest PMs do)
+Run agile ceremonies (planning, grooming, retros) and track delivery via Jira & Confluence
+Maintain technical partnerships — make decisions on what's reusable vs third‑party integrations (think ERP, HRMS, Marketing Tech)
+Interpret user research (from doctors, retailers, distributors, and sales reps) to influence new features
+Track product health via usage metrics, adoption, bugs, and backlog churn
+
+You should bring:
+3–5 years of digital product experience; PM in enterprise software or internal tools preferred
+Some engineering background (understand .NET services, REST APIs, Angular front-ends, MongoDB) — you don’t need to code, but you should get it
+Excellent written & verbal communication — capable of running mini‑townhalls with key stakeholders, then converting that feedback into JIRA tickets
+Comfortable managing multiple products—able to juggle the DMS, CRM, and Shopify roadmap simultaneously
+Proactive problem‑solving — not “who’s blocking me?”, but “what’s the workaround so we keep moving?”
+
+Benefits:
+Competitive salary and benefits package
+Opportunity to work on challenging and impactful projects
+Collaborative and supportive work environment
+Flexible work arrangements
+
+Why you'll love it:
+
+You’ll influence business decisions—heads of sales, operations, and IT sit in your backlog reviews
+We invest in growth—you’ll be directly mentored by our CIO and senior engineers
+
+Contains bad word "".NET"". Skipping this job!
+",Skipped,Not Available
+4279867300,https://www.linkedin.com/jobs/view/4279867300,Pending,2025-08-08 12:31:25.617095,2025-08-08 12:32:25.777107,Asking for Security clearance,"
+About the job
+Company Description
+
+Believe is one of the world’s leading digital music companies. Believe’s mission is to develop local artists and labels in the digital ecosystem by providing them the solutions they need to grow their audience at each stage of their career and development. 
+
+Its 2,020 employees in more than 50 countries aim to support local artists and labels with a unique digital expertise, respect, fairness, and transparency. 
+
+To support our fast-growing presence on all continents, we are constantly looking for new Believers to join us and make a stronger and more positive impact on the music industry! 
+
+Believe is listed on compartment A of the regulated market of Euronext Paris (Ticker: BLV, ISIN: FR0014003FE9). 
+
+www.believe.com 
+
+Ready to #setthetone with Believe?
+
+Job Description
+
+Believe is seeking an experienced and proactive Senior Administrator to join our Collective Rights (Neighbopring Rights) Management team. In this role, you will oversee the operational management of neighboring rights and mechanical reproduction rights, ensuring efficient resolution of rights conflicts, compliance with declarations, and maximizing revenue streams. You will also be contributing to process improvements and strategic initiatives.
+
+Key Responsibilities
+
+Manage complex rights operations, including data collection for new releases, rights declarations, and payment tracking related to neighboring rights and mechanical reproduction rights.
+Lead the resolution of rights conflicts, ensuring timely and effective communication with relevant stakeholders.
+Oversee the declaration process, including tracking, reconciliation, and reporting of rights data, sales, and payments.
+Respond to high-level inquiries from third parties and internal teams, providing expert guidance on rights issues.
+Collaborate with legal and licensing teams for rights clearance and conflict resolution.
+Support strategic initiatives to optimize the rights management processes and improve operational efficiency.
+Mentor and train junior team members, sharing expertise and best practices.
+
+Qualifications
+
+Proven experience in rights management, music industry operations, or related fields.
+Excellent command of English (spoken and written).
+Advanced proficiency in Excel, including VLOOKUP, pivot tables, data analysis, and metadata management.
+Strong organizational skills with meticulous attention to detail.
+Ability to handle complex conflicts and communicate effectively with diverse stakeholders.
+Knowledge of music rights law is a plus.
+Learning qualities with a proactive and strategic approach.
+
+Additional Information
+
+Benefits @Believe: 
+
+#Flexibility – Just punch in leaves, not intime and out time 
+
+#Office perks – a game of foosball, table tennis to bat the afternoon lacklustre, free event pass for exclusive and limited shows, music subscription, etc 
+
+#Wellbeing – Caring by EUTELMED, professionals are at your disposal for advice and support, in your own language and culture 
+
+#Transperancy – engaged in secondary activity just disclose it to us 
+
+#Sustainability – You can be a part of CSR program, represent yourself as a #shaper and contribute to a better future. 
+
+Disclaimer
+
+Believe strongly promotes equal treatment regardless of race, ethnicity, nationality, gender, sexual orientation, socio-economic status, age, marital or civil partner status, pregnancy or maternity, physical abilities, religious beliefs, political beliefs, or other ideologies.
+
+Found ""Clearance"" or ""Polygraph"". Skipping this job!
+",Skipped,Not Available
+4281604576,https://www.linkedin.com/jobs/view/4281604576,Previous resume,2025-08-08 12:22:31.593021,2025-08-08 12:32:46.887911,Problem in Easy Applying,Job application discarded by user!,Easy Applied,Not Available
+4279866225,https://www.linkedin.com/jobs/view/4279866225,Pending,2025-08-08 12:17:08.792672,2025-08-08 12:36:08.974639,Required experience is high,"
+About the job
+We are seeking a Pre-Sales Engineer with expertise in public and private cloud sizing, disaster recovery solutions (Veeam and Zerto), edge networking (firewalls, SD-WAN), and workload assessments. The ideal candidate will leverage tools like RV Tools, Turbonomic, Live Optics, and cloud cost optimization platforms to assess workloads, build solutions, and support the sales process by creating RFPs, pricing models, and technical proposals.
+
+Key Responsibilities:
+Cloud & Workload Sizing:
+· Assess on-premise and cloud workloads using tools like RV Tools, Turbonomic,Live Optics, and CloudHealth to determine optimal sizing and cost efficiencies.
+· Design and size public, private, and hybrid cloud solutions (AWS, Azure, VMware, OpenStack) for performance and cost optimization.
+· Provide capacity planning, rightsizing, and cloud cost estimations using Turbonomic, AWS Cost Explorer, and Azure Pricing Calculator.
+Disaster Recovery & Business Continuity:
+· Architect disaster recovery solutions using Veeam and Zerto for replication, failover, and business continuity.
+· Design RPO/RTO-aligned DR strategies for enterprise workloads across multi-cloud and on-premise environments.
+Edge Networking & Security:
+· Design edge network solutions, including firewalls (Cisco, Palo Alto, Fortinet), SD-WAN, and security frameworks.
+· Assess security posture and recommend zero-trust architectures, segmentation, and VPN/remote access solutions.
+Pre-Sales & Solution Design:
+· Conduct workload assessments, performance benchmarks, and infrastructure discovery using RV Tools, Live Optics, and Turbonomic.
+· Develop technical proposals, RFP responses, and pricing models for managed services and cloud migrations.
+· Engage with customers, sales teams, and vendors to design customized solutions that align with business and technical requirements.
+· Provide technical presentations, proof-of-concepts (PoCs), and demonstrations for cloud, DR, and networking solutions.
+· Work with vendors to ensure the best-fit solutions for clients in Canada and India.
+
+Required Skills & Experience:
+· 3+ years of experience in Pre-Sales, Solution Architecture, or Technical Consulting for a Managed Services Provider (MSP) or Cloud Services Provider (CSP).
+· Strong hands-on experience with public/private cloud sizing (AWS, Azure, VMware, OpenStack).
+· Expertise in workload assessment tools such as RV Tools, Turbonomic, Live Optics, CloudHealth, AWS Cost Explorer, or Azure Migrate.
+· Strong background in disaster recovery (DR) and backup solutions using Veeam and Zerto.
+· Experience in edge networking, firewalls (Cisco, Palo Alto, Fortinet), and security architectures.
+· Ability to translate technical solutions into business benefits and communicate effectively with stakeholders.
+· Experience in creating RFPs, technical proposals, and pricing quotes for managed services.
+· Strong problem-solving and analytical skills with a customer-centric approach.
+
+Preferred Qualifications:
+· Certifications such as AWS Solutions Architect, Azure Solutions Architect, Veeam Certified Engineer, Zerto Certified Professional, or firewall/security certifications (CCNP, PCNSE, NSE, etc.).
+· Experience with hybrid cloud and multi-cloud strategies.
+· Knowledge of Infrastructure as Code (Terraform, Ansible) and automation tools.
+· Familiarity with ITSM and monitoring platforms (ServiceNow, Splunk, Elastic, etc.).
+
+Benefits
+
+ Competitive Bonus/Incentive plans. 
+Remote work options.
+Stability (8 years of service, notable clients: Disney, US Federal and State Department, Nintendo, McDonald's.)
+Career growth opportunities.
+Paid Technology certifications (CCNA-CCIE/VMWARE/Fortinet/Palo alto).
+Rewards and recognition programs.
+Comprehensive Healthcare Plans
+18 paid holidays.
+Rotational shifts.
+
+Experience required 8 > Current Experience 5. Skipping this job!
+",Skipped,Not Available
+4279865340,https://www.linkedin.com/jobs/view/4279865340,Pending,2025-08-08 12:16:36.938342,2025-08-08 12:36:37.056964,Required experience is high,"
+About the job
+👗 We’re Hiring | Customer Order Merchandiser – Fashion & Textiles
+📍 Location: Noida
+💼 Experience: 4–6 Years in Merchandising / Customer Order Management
+📞 Contact: kajal thakur | 📧 kajal@skyleaf.global | 📱 8085827207
+🏢 Client: Confidential (Textile & Apparel Business)
+
+About the Role:
+We’re looking for a proactive and detail-oriented Customer Order Merchandiser to manage end-to-end order execution — from customer interaction and fabric selection to production follow-ups, quality checks, and on-time delivery.
+Key Responsibilities:
+
+📌 Understand and document customer requirements (design, trims, delivery timelines)
+🧵 Guide on fabric/material selection as per specifications
+📄 Prepare order sheets and share with vendors/internal teams
+🧪 Coordinate with sampling, design & production for timely approvals
+🔍 Track production and perform quality checks at key stages
+🚚 Ensure on-time delivery and manage post-delivery customer feedback
+
+What We’re Looking For:
+✅ Degree/Diploma in Fashion Design, Merchandising, or Textile Tech
+✅ 4–6 years of experience in apparel/fashion/textile merchandising
+✅ Deep knowledge of fabric, trims, garment construction, quality standards
+✅ Excellent customer handling & vendor coordination skills
+✅ Proficient in MS Excel, Word, Outlook
+✅ Ability to multitask, manage timelines & resolve issues swiftly
+
+Key Skills:
+🎯 Fabric & Trim Sourcing
+🎯 Vendor & Supplier Management
+🎯 Order Tracking & Production Follow-up
+🎯 Quality Assurance
+🎯 Customer Relationship Management
+
+📩 Ready to deliver quality fashion, on time, every time? Let’s talk.
+📧 kajal@skyleaf.global | 📱 8085827207
+
+Experience required 6 > Current Experience 5. Skipping this job!
+",Skipped,Not Available
+4279861778,https://www.linkedin.com/jobs/view/4279861778,Pending,2025-08-08 12:16:41.643852,2025-08-08 12:36:50.560237,Problem in Easy Applying,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf5fd23+62915]
+	GetHandleVerifier [0x0xf5fd64+62980]
+	(No symbol) [0x0xd93e13]
+	(No symbol) [0x0xddc89e]
+	(No symbol) [0x0xddcc3b]
+	(No symbol) [0x0xe24ec2]
+	(No symbol) [0x0xe01424]
+	(No symbol) [0x0xe226ea]
+	(No symbol) [0x0xe011d6]
+	(No symbol) [0x0xdd0833]
+	(No symbol) [0x0xdd16a4]
+	GetHandleVerifier [0x0x11c8d13+2590131]
+	GetHandleVerifier [0x0x11c3f5a+2570234]
+	GetHandleVerifier [0x0xf859da+217722]
+	GetHandleVerifier [0x0xf76048+153832]
+	GetHandleVerifier [0x0xf7c4ad+179533]
+	GetHandleVerifier [0x0xf67728+94152]
+	GetHandleVerifier [0x0xf678b2+94546]
+	GetHandleVerifier [0x0xf52bca+9322]
+	BaseThreadInitThunk [0x0x76425d49+25]
+	RtlInitializeExceptionChain [0x0x7781d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7781d131+561]
+",Easy Applied,Not Available
+4279866461,https://www.linkedin.com/jobs/view/4279866461,Pending,2025-08-08 12:30:44.564249,2025-08-08 12:43:44.725862,Asking for Security clearance,"
+About the job
+Role: Analyst – Urban Sanitation
+
+Location: Mumbai
+
+Experience: 2–4 years
+
+About Dasra:
+
+Dasra’s bold aspiration is a transformed India where a billion thrive with dignity and equity. Established in 1999, Dasra is India’s leading strategic philanthropy foundation, working with philanthropists and high impact social entrepreneurs to bring together knowledge, funding and talent as a catalyst for social change. Dasra nurtures strategic philanthropy for India and focuses on impactful programs such as empowering adolescent girls, urban sanitation, inclusive economies and child protection and care. With 25 years of experience in the sector, a depth of knowledge gained from working with and supporting over 1,000 non-profits and having brought $200 million in funding to organizations - Dasra drives collaborative action to accelerate social change in India.
+
+Dasra embraces diversity across people and communities through multiplicity in composition integrated with structures, culture and policies, enhancing inclusion and belonging for all in letter and spirit. We envision a team that includes people across caste, religion, gender, economic status, geography, disability and other underrepresented communities, supported by organizational structures that enable collective, transparent and fair decision making, guided by policies that facilitate growth and authenticity within an environment of openness and listening.
+
+We believe that GEDI in our institutional and programmatic endeavours will enhance, drive and accelerate social impact and social change through an integration of the worldviews of the most marginalized, recognition of their vulnerabilities, rights and potentials and through prioritization of their needs.
+
+About OneDasra Team:
+
+Dasra achieves its ambitious mission with a collaborative 200+ member OneDasra team. This team works on various programs and supports audacious impact-first goals and strategic objectives by collaborating with internal and external stakeholders. The OneDasra organization structure has enhanced agility, learning and enables pushing professional boundaries, which ensures that talent grows and develops, for greater systems change. The recruitment process is unique in that you will be selected to join OneDasra, with a role that best leverages your strengths and be involved in programs that align with your current interests. You will not be joining a siloed-functional team, therefore – please consider these outlined responsibilities and skill-sets required with an opportunistic role that will build cross functionality and be well poised for individual learning, growth and development across sectors and stakeholders. Dasra is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
+
+About the Dasra’s Urban WASH Portfolio & NFSSM Alliance:
+
+The Dasra Urban Water Hygiene and Sanitation Team plays the role of the field catalyzer to bring together funders, governments, communities and sector experts. Dasra’s aspiration is by 2030, to enable Safe Sanitation and Water for Urban India (~7900+ Cities) thereby enabling dignity and equity to our most vulnerable. Dasra is the Secretariat of the NFSSM Alliance and supports the overall functioning of the Alliance by fostering collaboration between 35+ diverse expert organizations focused on creating policy recommendations and collaborative action towards safe and sustainable human waste management in India. We work with our network of partners in over 19 states to develop policy recommendations, support governments through evidence and best practices and funnel up voices of communities, with a focus on institutionalizing inclusive Sanitation, Climate and Sanitation interlinkages, and creating an enabling environment for innovation and technology.
+
+Dasra anchors a collaborative platform for WSH - the National Faecal Sludge and Septage Management Alliance (NFSSM Alliance), which was convened in 2016 with support of the Bill and Melinda Gates Foundation. The Alliance is a group of 35+ sanitation experts in India that build consensus and drive discourse around Faecal Sludge Management and inclusive sanitation to support national, state and city governments. The NFSSM Alliance works in collaboration with government stakeholders like the Ministry of Housing and Urban Affairs, NITI Aayog and the Central Finance Commission.
+
+Role Overview
+
+We are seeking a proactive and mission-driven Analyst to support the design and delivery of the WASH team’s Alliance priorities and state-specific work. This role is ideal for someone with 2–4 years of experience who brings strong project management, stakeholder engagement, research and analysis, and strategic thinking skills to the table.
+
+You will play a key role in ensuring effective execution of programs, driving sector collaboration, and contributing to thought leadership on inclusive urban sanitation.
+
+Key Responsibilities
+
+Project Ownership: Independently manage and deliver workstreams under different outcomes – from planning and execution to reporting and impact tracking. 
+Stakeholder Engagement: Coordinate closely with government stakeholders, funders, and sector experts to support team goals. 
+Knowledge Platforms: Drive the planning and execution of Alliance convenings and task forces, ensuring rich cross-learning, follow-through on actions, and strategic alignment. 
+Research & Insights: Develop evidence-based outputs, including memos, briefs, presentations – through structured research, stakeholder inputs, and data synthesis. 
+Internal Coordination: Collaborate with cross-functional Dasra teams to ensure timely delivery and maintain high standards of quality, accuracy, and responsiveness. 
+Team Contribution: Support junior team members and contribute to building team culture, knowledge systems, and operational processes. 
+
+Who You Are
+
+2–4 years of work experience in strategic and stakeholder driven roles including consulting, WASH, ecosystem building, or related areas. 
+Strong project and time management skills, able to juggle multiple priorities and deliver independently. 
+Excellent written and verbal communication, including the ability to create clear and compelling documents for diverse stakeholders. 
+Experience in engaging with government stakeholders or working in multi-stakeholder environments is highly desirable. 
+Brings strong critical thinking, analytical ability, and attention to detail. 
+A motivated self-starter who thrives in dynamic, mission-driven environments. 
+Passionate about solving for urban development. 
+
+Good to have skills/ experience:
+
+Experience with primary and secondary research, or basic data analytics
+Familiarity with urban governance, sanitation, or climate resilience 
+Exposure to donor engagement or fundraising processes
+
+Found ""Clearance"" or ""Polygraph"". Skipping this job!
+",Skipped,Not Available
+4282117332,https://www.linkedin.com/jobs/view/4282117332,Pending,2025-08-08 12:12:25.111699,2025-08-08 12:44:25.196235,Required experience is high,"
+About the job
+At Roche you can show up as yourself, embraced for the unique qualities you bring. Our culture encourages personal expression, open dialogue, and genuine connections, where you are valued, accepted and respected for who you are, allowing you to thrive both personally and professionally. This is how we aim to prevent, stop and cure diseases and ensure everyone has access to healthcare today and for generations to come. Join Roche, where every voice matters.
+
+The Position
+
+IT Business Analyst - GenAI/Automation
+
+In Roche Informatics, we build on Roche's 125-year history as one of the world's largest biotech companies, globally recognized for providing transformative innovative solutions across major disease areas. We combine human capabilities with cutting-edge technological innovations to do now what our patients need next. Our commitment to our patients' needs motivates us to deliver technology that evolves the practice of medicine.
+
+Role Overview: 
+
+As an IT Business Analyst, you will play a pivotal role in delivering innovative and scalable solutions that drive business value. You will manage the solution lifecycle, ensure alignment with business requirements, and act as a bridge between business and IT functions. This role reports to the Section Lead - Product Analysis & Consultancy - APAC.
+
+You will be:
+
+Actively manage the product lifecycle to ensure solutions meet business requirements and align with the product roadmap
+Take on additional roles such as IT Business Partner, Product Manager, or Squad Lead when needed
+Develop and maintain business cases, including solution options, resource estimates, and support for strategic backlog management. Serve as an interface between business and IT, leading the initiative scoping phase and driving the launch of new projects
+Perform typical Business Analysis activities and create deliverables according to Roche standards, such as Business Cases, Project Charters, and URS/User Stories. Collaborate with delivery and project teams to ensure the final solution meets user requirements and is delivered on schedule
+Support risk management activities and ensure compliance with quality standards. Assist in implementing new practices like agile methodologies and contribute to process improvements and automation
+
+Who you are :
+
+Having 6-8 years of experience in analyzing business processes and identifying opportunities for improvement and automation
+You are familiar with automation technologies such as GenAI and LLM, and the ability to navigate related activities. You possess strong communication, logical, and critical thinking skills, with experience in prompt writing and management in an enterprise environment. You have experience working with data scientists and a solid understanding of data analysis techniques. Ability to work with data to develop hypotheses and identify automation opportunities
+Good strong interpersonal skills to effectively communicate with stakeholders, data scientists, and development teams
+Have proven ability to solve business problems involving multiple stakeholders in a matrix organization. You are a Quick learner with the ability to adapt to new technologies and methodologies
+You have experience in a regulated industry (preferably healthcare) with Pharmacovigilance experience preferred
+
+Who we are
+
+A healthier future drives us to innovate. Together, more than 100’000 employees across the globe are dedicated to advance science, ensuring everyone has access to healthcare today and for generations to come. Our efforts result in more than 26 million people treated with our medicines and over 30 billion tests conducted using our Diagnostics products. We empower each other to explore new possibilities, foster creativity, and keep our ambitions high, so we can deliver life-changing healthcare solutions that make a global impact.
+
+Let’s build a healthier future, together.
+
+Roche is an Equal Opportunity Employer.
+
+Experience required 6 > Current Experience 5. Skipping this job!
+",Skipped,Not Available
+4251113636,https://www.linkedin.com/jobs/view/4251113636,Pending,2025-08-08 12:09:42.887089,2025-08-08 12:44:43.136648,Required experience is high,"
+About the job
+At Quaker Houghton, we are experts in the development, production and application of industrial process fluids, lubricants and coatings for the manufacturing industry. We have been an integral part in the growth of the world’s largest industrial and manufacturing companies from aerospace and automotive to primary metal and energy. Today, we have a global presence, with our corporate headquarters located in Conshohocken, PA. Quaker Houghton is a global publicly traded company with a unique collaborative culture that supports career growth for its colleagues and offers competitive compensation and benefit programs.
+
+As Total Rewards Analyst, APAC you will support the administration of compensation, benefits and wellness programs for the region reporting directly to the global TR leader and working closely with the HR Business Partners to ensure alignment with business objectives. A unique opportunity to join an international and dynamic global HR organization with an exciting role that will be key to enable Quaker Houghton's ambitious growth strategy in the region.
+
+
+What will you do ? 
+
+Support all compensation, benefits and wellness programs.
+Participate in designing and executing programs in the annual compensation cycle, mainly the performance management cycle, merit reviews, bonus payouts, and long-term incentive plans.
+Collaborate with HR Business Partners to ensure alignment of reward strategies with business objectives.
+Conduct market research (benchmarking) and analysis to ensure competitive compensation and benefits packages.
+Participate and recommend compensation and benefits harmonization approaches in acquisition integration and related projects.
+Provide guidance and support to business managers and employees on reward-related matters.
+Leverage HR analytics tools to monitor and assess pay equity, employee engagement insights, and effectiveness of reward programs and recommend improvements.
+Ensure compliance with local regulations and company policies.
+Perform Other related Duties as Assigned.
+
+
+What are we looking for ? 
+
+Education: Bachelor’s degree in human resources, Business Administration, or a related field.
+
+Experience: Minimum of 7 years of experience in compensation and benefits or a related field in a multinational environment. Experience working with a globally diverse population. Strong hands-on experience working in APAC Markets (Including China, India, Japan, SEA etc.), including familiarity with laws and regulations as well as regional C&B differences within the APAC market.
+
+IT Skills: Proficiency in Microsoft Office Suite, particularly Excel. Experience with Workday HCM and Advanced Compensation required.
+
+Language: High level of English is a must, additional languages is highly valued.
+
+Soft skills:
+Strong analytical and problem-solving skills.
+Excellent communication and interpersonal skills.
+Ability to work independently and as part of a team.
+
+Location: India based flexible in Kolkata, Pune, Chennai or Bangalore area.
+
+
+What's in it for you? 
+
+Competitive pay, bonus opportunities and benefits
+Global Giving Program: Volunteering leave to dedicate to the cause of your choice.
+QH University: continuous online training platform for all levels.
+DEI and Recognition initiatives such as Women in Manufacturing, Next Gen and other CRGs, as well as Global Donation and Impact Awards programs.
+A unique opportunity to join an international, dynamic and collaborative team environment.
+
+
+Who are we?
+
+We are the global leader in industrial process fluids present in 40+ countries continually improving and innovating so the world’s steel, aluminum, automotive, aircraft, machinery and industrial parts manufacturers can stay ahead in a changing world. Throughout our 100+ locations, our chemists, engineers and industry experts partner with our customers to continually improve their operations so they can run even more efficiently, even more effectively, whatever comes next.
+
+Our values:
+Live Safe
+Exceed Customer Expectations
+Drive Results
+Embrace Diversity
+Do Great Things Together
+Act with integrity
+
+Our core values embody who we are as a company, guide our decisions and inspire us. Our commitment to these values, in words and actions, builds a safer, stronger Quaker Houghton. They are the fundamental beliefs that guide our internal conduct and our relationship with the outside world.
+
+
+Join the team and let's do great things together! 
+
+
+Learn more about our Sustainability Strategy : Sustainability – Quaker Houghton
+
+Experience required 7 > Current Experience 5. Skipping this job!
+",Skipped,Not Available
+4282112413,https://www.linkedin.com/jobs/view/4282112413,Pending,2025-08-08 11:51:36.714990,2025-08-08 12:46:36.976059,Found a Bad Word in About Job,"
+About the job
+Greetings from Teamware Solutions a division of Quantum Leap Consulting Pvt. Ltd
+
+We have the below requirement for one of the reputed MNC for Noida location and require immediate joiners for the same.
+Required Skills:-
+Job Description:
+Experience with Web analytics 
+adobe analytics
+ Share your resume to Junnaid Khurshid or junaid.k@twsol.com
+
+About Us:
+Teamware Solutions, a business division of Quantum Leap Consulting Private Limited (www.teamwaresolutions.net), offers cutting edge industry solutions for deriving business value for our clients' IT initiatives. Offering deep domain expertise in Banking, Financial Services and Insurance, Oil and Gas, Infrastructure, Manufacturing, Retail, Telecom and Healthcare industries, Teamware leads its service in offering skills augmentation and professional consulting services.
+
+Being an industry leader for the past 20 years, over 4000 professionals deputed across India, USA, Middle East and APAC, our major clients include Captive IT units in India, Product Companies and IT Services firms. Head quartered in Chennai, with our branches in Bangalore, Hyderabad, Pune and cater to the clients spread across pan India
+
+Contains bad word "".NET"". Skipping this job!
+",Skipped,Not Available
+4281550169,https://www.linkedin.com/jobs/view/4281550169,Pending,2025-08-08 11:50:44.206230,2025-08-08 12:46:53.363321,Problem in Easy Applying,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xdffd23+62915]
+	GetHandleVerifier [0x0xdffd64+62980]
+	(No symbol) [0x0xc33e13]
+	(No symbol) [0x0xc7c89e]
+	(No symbol) [0x0xc7cc3b]
+	(No symbol) [0x0xcc4ec2]
+	(No symbol) [0x0xca1424]
+	(No symbol) [0x0xcc26ea]
+	(No symbol) [0x0xca11d6]
+	(No symbol) [0x0xc70833]
+	(No symbol) [0x0xc716a4]
+	GetHandleVerifier [0x0x1068d13+2590131]
+	GetHandleVerifier [0x0x1063f5a+2570234]
+	GetHandleVerifier [0x0xe259da+217722]
+	GetHandleVerifier [0x0xe16048+153832]
+	GetHandleVerifier [0x0xe1c4ad+179533]
+	GetHandleVerifier [0x0xe07728+94152]
+	GetHandleVerifier [0x0xe078b2+94546]
+	GetHandleVerifier [0x0xdf2bca+9322]
+	BaseThreadInitThunk [0x0x76425d49+25]
+	RtlInitializeExceptionChain [0x0x7781d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7781d131+561]
+",Easy Applied,Not Available
+4281548456,https://www.linkedin.com/jobs/view/4281548456,Pending,2025-08-08 11:56:35.786147,2025-08-08 12:51:51.114910,Problem in Easy Applying,cannot access local variable 'modal' where it is not associated with a value,Easy Applied,Not Available
+4279476289,https://www.linkedin.com/jobs/view/4279476289,Pending,2025-08-07 16:53:48.149349,2025-08-08 12:53:48.398462,Required experience is high,"
+About the job
+Role Description
+
+Role Proficiency:
+
+Contributes to driving the Product Vision that addresses cross-domain market needs with strong business viability; in line with the Product/Platform Portfolio with guidance from Managers. Assists Managers in delivering the desired product and platform outcomes from original inspiration through implementation and support.rnContributes to the discovery and development of the product/platform per the phases and stages of the product/platform. as guided by the Product Managers.
+
+Outcomes
+
+ A strong evangelist of Product & Platforms Division’s Vision and Philosophy.
+ Performs primary and secondary research on Market Driven Products & Platforms; executes the product/platform strategy
+ Ensures clear and unambiguous translation of Product Value Roadmap through deliverables to enable the product team to complete work
+ Ensures adherence to the Product Value Roadmap set by Product Managers and Product Leadership
+ Drafts user stories and ensures they are clearly understood by cross functional product teams
+ Ensures Product requirements are gathered and prioritized
+ Drives the execution of product development in collaboration with Product Team members comprised of Product Design Technology & Data Science
+ Adherence to the modern product management practises and standards; providing periodic status updates
+ Supports Product Managers and Senior Product Managers in product demos
+ Supports in achieving the Product OKR's
+
+Measures Of Outcomes
+
+ Adherence to agreed product roll-out timelines
+ Achievement of Product Metrics
+ Achievement of Product OKR's
+ Product Team Performance
+Number of domain and product certifications
+
+Outputs Expected
+
+Plan to develop great products and platforms:
+
+Strong research enabling sound Product Discovery
+Co-facilitates Discovery Sprints under guidance from Product and Senior Product Managers
+Write and articulate great user stories by capturing and translating solutions for identified user problems into product features that deliver value and impress users
+Adherence to Product OKR's
+
+Design To Deliver Vast End -user Experience
+
+Facilitate sound user research across target market segments
+Influence in implementing design user-centric experiences throughout the user's journey
+Assist in defining user experience (e.g. wire framing journey maps); partnering with product designers
+
+Research The Market To Ensure An Unfair Advantage
+
+Sound understanding of market trends partner ecosystems and competitive strategies 
+Understanding users the marketplace the competition and future trends for the domain or type of system being developed through customer and market research competitive analysis and rapidly acquiring domain expertise
+Define and articulate unique product and business differentiation
+
+Manage business to go to and win in the markets:
+
+Assist in implementing the GTM strategies and achieve the metrics for product success 
+Protect assets and mitigate risks employing IP knowledge
+
+Manage Great People
+
+Inspire Product teams communicate with diverse groups and influence change throughout the organization
+
+Use Great Technology
+
+Good understanding and usage of tech stacks 
+Good understanding of exponential technologies including AI/ML IoT Blockchain 
+Agile proficiency for Rapid Product Discovery & Development
+Employ eminent technology in product management by diving deep into technology trends and architectures
+
+Employ Great Methods In Product Management
+
+Understand different product management and development approaches
+Understand product usage models
+
+Skill Examples
+
+ Skill in understanding and articulating the core positioning messaging and value propositions for the product
+ Ability to support product demos to customers/end users
+ Ability to define the user experience to be incorporated into the User Design
+ Aptitude in creating user stories
+ Ability to creates market customer and competition research based on understanding of market trends partner ecosystems and competitive strategies
+ Capable of motivating the team to build and deliver impressive products
+
+Knowledge Examples
+
+Knowledge Examples
+
+ Domain / Industry Knowledge: Working knowledge of standard business processes within the relevant industry vertical and customer business domain
+ Technology Trends Knowledge: Demonstrates broad knowledge of technology trends related to multiple inter-related technologies
+ Proficient in user story writing
+ Knowledge of market trends partner ecosystems and competitive strategies
+ Proficient in product documentation
+ Expertise in people management
+Knowledge of technology trends and architectures
+
+Additional Comments
+
+Business Analyst Location: Offshore (Kochi, Trivandrum, Chennai) Type: Full-time Role Overview As a Business Analyst, you’ll partner with Health Plans, external vendors, and cross-functional teams to translate complex US healthcare business needs into detailed requirements for our Enrollment and Billing platforms. You’ll cover everything from member onboarding through premium billing reconciliation, ensuring compliance with CMS rules, HIPAA, and industry standards. Key Responsibilities 1. Enrollment Stream
+
+ Groups & Sub-Groups Configuration: Define plan structures, benefit groupings, and sub-group hierarchies.
+ Member Lifecycle Management: Gather requirements for New Applications, Plan Benefit Period (PBP) Changes, Disenrollments, Reinstatements, and Membership Updates.
+ Eligibility & Enrollment Transactions: Specify inbound/outbound EDI (834, 270/271), AppOut/MembershipOut files, and CMS-mandated reporting.
+ Work Queues & Exception Handling: Model Work, Process, and Rejection Queues (including BEQ), and build requirements for automatic routing and SLA tracking.
+ Provider & PCP Integrations: Document interfaces to provider directories, PCP assignment engines, PBMs, and claims adjudication systems.
+ Vendor File Management: Define ingestion and validation for external vendor feeds (network updates, pharmacy eligibility, premium billing).
+ Correspondence & Communications: Capture requirements for letters, invoices, extracts, and digital notifications.
+ Regulatory Reporting & Analytics: Elicit requirements for CMS compliance reports, LIS/LEP calculations, and custom dashboards. 2. Billing Stream
+ Claims-to-Cash Workflows: Define end-to-end processes for Payment, Invoice, Retro-Billing, LIS/LEP adjustments, PWO (Premium Withhold Override), and DTRR reconciliation.
+ Transaction Standards: Specify EDI (835ERAs, 820 Payment Orders, 277CA), ACH files, MMR/MPWR feeds, and XML-based invoice PDFs.
+ Invoice Generation & Posting: Document rules for auto-posting, manual adjustments, and multi-LOB invoicing across Commercial, MA, and Medicaid.
+ Reconciliation & Reporting: Model data flows for financial reconciliation, exception-driven reruns, and audit-ready reporting. 3. Analysis & Documentation
+ Lead discovery sessions—workshops, storyboards, use-cases—to capture granular business rules.
+ Create process maps, swim-lane diagrams, data-mapping matrices, and requirement traceability matrices.
+ Author BRDs, FRDs, user stories, acceptance criteria, and test-case templates.
+ Partner with QA to validate end-to-end scenarios, edge cases, and compliance checks. 4. Stakeholder Engagement & Continuous Improvement
+ Facilitate alignment across onshore/offshore teams, operations, vendor partners, and CMS contacts.
+ Drive retrospectives to refine requirements-gathering processes, stemming root-cause analysis of production exceptions (e.g., DTRR, premium anomalies).
+ Mentor junior analysts on healthcare regulations, EDI standards, and best practices. You Bring
+ 7+ years as a BA in US healthcare Enrollment and/or Billing systems.
+ Deep expertise in CMS enrollment/disenrollment guidance, EDI (834/270/271, 835/820/277), DTRR, LIS/LEP, and provider network integrations.
+ Strong analytical, process-modeling, and documentation skills (Visio/Miro, Jira/Aha).
+ Excellent communication, stakeholder management, and facilitation abilities.
+ Bachelor’s degree in Business, Healthcare Informatics, or related field.
+
+Skills
+
+Product Owner,Healthcare,Business Analysis,Sdlc
+
+Desired Skills and Experience
+Product Owner,Healthcare,Business Analysis,Sdlc
+
+Experience required 7 > Current Experience 5. Skipping this job!
+",Skipped,Not Available
+4279432098,https://www.linkedin.com/jobs/view/4279432098,Pending,2025-08-07 16:53:56.414835,2025-08-08 12:54:06.066134,Problem in Easy Applying,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcbfd23+62915]
+	GetHandleVerifier [0x0xcbfd64+62980]
+	(No symbol) [0x0xaf3e13]
+	(No symbol) [0x0xb3c89e]
+	(No symbol) [0x0xb3cc3b]
+	(No symbol) [0x0xb84ec2]
+	(No symbol) [0x0xb61424]
+	(No symbol) [0x0xb826ea]
+	(No symbol) [0x0xb611d6]
+	(No symbol) [0x0xb30833]
+	(No symbol) [0x0xb316a4]
+	GetHandleVerifier [0x0xf28d13+2590131]
+	GetHandleVerifier [0x0xf23f5a+2570234]
+	GetHandleVerifier [0x0xce59da+217722]
+	GetHandleVerifier [0x0xcd6048+153832]
+	GetHandleVerifier [0x0xcdc4ad+179533]
+	GetHandleVerifier [0x0xcc7728+94152]
+	GetHandleVerifier [0x0xcc78b2+94546]
+	GetHandleVerifier [0x0xcb2bca+9322]
+	BaseThreadInitThunk [0x0x76425d49+25]
+	RtlInitializeExceptionChain [0x0x7781d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7781d131+561]
+",Easy Applied,Not Available
+4281145721,https://www.linkedin.com/jobs/view/4281145721,Pending,2025-08-07 12:55:54.851484,2025-08-08 12:56:04.970911,Problem in Easy Applying,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcbfd23+62915]
+	GetHandleVerifier [0x0xcbfd64+62980]
+	(No symbol) [0x0xaf3e13]
+	(No symbol) [0x0xb3c89e]
+	(No symbol) [0x0xb3cc3b]
+	(No symbol) [0x0xb84ec2]
+	(No symbol) [0x0xb61424]
+	(No symbol) [0x0xb826ea]
+	(No symbol) [0x0xb611d6]
+	(No symbol) [0x0xb30833]
+	(No symbol) [0x0xb316a4]
+	GetHandleVerifier [0x0xf28d13+2590131]
+	GetHandleVerifier [0x0xf23f5a+2570234]
+	GetHandleVerifier [0x0xce59da+217722]
+	GetHandleVerifier [0x0xcd6048+153832]
+	GetHandleVerifier [0x0xcdc4ad+179533]
+	GetHandleVerifier [0x0xcc7728+94152]
+	GetHandleVerifier [0x0xcc78b2+94546]
+	GetHandleVerifier [0x0xcb2bca+9322]
+	BaseThreadInitThunk [0x0x76425d49+25]
+	RtlInitializeExceptionChain [0x0x7781d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7781d131+561]
+",Easy Applied,Not Available
+4281419946,https://www.linkedin.com/jobs/view/4281419946,Pending,2025-08-07 12:56:22.052746,2025-08-08 12:56:31.029930,Problem in Easy Applying,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcbfd23+62915]
+	GetHandleVerifier [0x0xcbfd64+62980]
+	(No symbol) [0x0xaf3e13]
+	(No symbol) [0x0xb3c89e]
+	(No symbol) [0x0xb3cc3b]
+	(No symbol) [0x0xb84ec2]
+	(No symbol) [0x0xb61424]
+	(No symbol) [0x0xb826ea]
+	(No symbol) [0x0xb611d6]
+	(No symbol) [0x0xb30833]
+	(No symbol) [0x0xb316a4]
+	GetHandleVerifier [0x0xf28d13+2590131]
+	GetHandleVerifier [0x0xf23f5a+2570234]
+	GetHandleVerifier [0x0xce59da+217722]
+	GetHandleVerifier [0x0xcd6048+153832]
+	GetHandleVerifier [0x0xcdc4ad+179533]
+	GetHandleVerifier [0x0xcc7728+94152]
+	GetHandleVerifier [0x0xcc78b2+94546]
+	GetHandleVerifier [0x0xcb2bca+9322]
+	BaseThreadInitThunk [0x0x76425d49+25]
+	RtlInitializeExceptionChain [0x0x7781d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7781d131+561]
+",Easy Applied,Not Available
