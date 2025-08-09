@@ -217,28 +217,48 @@ def apply_filters() -> None:
         all_filters_btn.click()
         buffer(recommended_wait)
 
-        # Increase waits as mac renders slower
-        wait_span_click(driver, sort_by, 8.0)
-        wait_span_click(driver, date_posted, 8.0)
+        # Prefer clicking label containers so split-word spans (Most + recent) still match
+        def click_label_contains(text: str, t: float = 8.0) -> bool:
+            try:
+                label = WebDriverWait(driver, t).until(
+                    EC.element_to_be_clickable((By.XPATH, f"//label[contains(normalize-space(string(.)), '{'" + text + "'}')]"))
+                )
+                scroll_to_view(driver, label)
+                label.click()
+                buffer(recommended_wait)
+                return True
+            except Exception:
+                return False
+
+        # Sort by / Date posted
+        if sort_by:
+            if not wait_span_click(driver, sort_by, 6.0):
+                click_label_contains(sort_by, 8.0)
+        if date_posted:
+            if not wait_span_click(driver, date_posted, 6.0):
+                click_label_contains(date_posted, 8.0)
         buffer(recommended_wait)
 
-        # Use waited clicks for stability on macOS
-        multi_sel(driver, experience_level)
-        multi_sel(driver, companies)
+        # Use original faster clicks to preserve previous behavior
+        multi_sel_noWait(driver, experience_level)
+        multi_sel_noWait(driver, companies, actions)
         if experience_level or companies: buffer(recommended_wait)
 
-        multi_sel(driver, job_type)
-        multi_sel(driver, on_site)
+        multi_sel_noWait(driver, job_type)
+        multi_sel_noWait(driver, on_site)
         if job_type or on_site: buffer(recommended_wait)
 
-        if easy_apply_only: boolean_button_click(driver, actions, "Easy Apply")
+        if easy_apply_only:
+            # Try the toggle first; if not found, click the 'Easy Apply' label directly
+            if not boolean_button_click(driver, actions, "Easy Apply"):
+                click_label_contains("Easy Apply", 6.0)
         
-        multi_sel(driver, location)
-        multi_sel(driver, industry)
+        multi_sel_noWait(driver, location)
+        multi_sel_noWait(driver, industry)
         if location or industry: buffer(recommended_wait)
 
-        multi_sel(driver, job_function)
-        multi_sel(driver, job_titles)
+        multi_sel_noWait(driver, job_function)
+        multi_sel_noWait(driver, job_titles)
         if job_function or job_titles: buffer(recommended_wait)
 
         if under_10_applicants: boolean_button_click(driver, actions, "Under 10 applicants")
