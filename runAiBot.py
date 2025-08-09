@@ -233,10 +233,35 @@ def apply_filters() -> None:
         # Sort by / Date posted
         if sort_by:
             if not wait_span_click(driver, sort_by, 6.0):
-                click_label_contains(sort_by, 8.0)
+                # Some UIs render as radio label with split text
+                if not click_label_contains(sort_by, 8.0):
+                    # Explicit radio by name 'sort-by-time'
+                    try:
+                        radio = driver.find_element(By.XPATH, "//input[@name='sort-by-time' and @value='DD']")
+                        scroll_to_view(driver, radio)
+                        radio.click()
+                        buffer(recommended_wait)
+                    except Exception:
+                        pass
         if date_posted:
             if not wait_span_click(driver, date_posted, 6.0):
-                click_label_contains(date_posted, 8.0)
+                if not click_label_contains(date_posted, 8.0):
+                    # Explicit radios for date posted
+                    try:
+                        mapping = {
+                            'Any time': 'r86400',
+                            'Past month': 'r2592000',
+                            'Past week': 'r604800',
+                            'Past 24 hours': 'r86400'
+                        }
+                        value = mapping.get(date_posted)
+                        if value:
+                            radio = driver.find_element(By.XPATH, f"//input[@name='f_TPR' and @value='{value}']")
+                            scroll_to_view(driver, radio)
+                            radio.click()
+                            buffer(recommended_wait)
+                    except Exception:
+                        pass
         buffer(recommended_wait)
 
         # Use original faster clicks to preserve previous behavior

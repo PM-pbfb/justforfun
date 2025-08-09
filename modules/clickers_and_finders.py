@@ -84,16 +84,26 @@ def boolean_button_click(driver: WebDriver, actions: ActionChains, text: str) ->
     '''
     Tries to click on the boolean button with the given `text` text.
     '''
-    try:
-        list_container = driver.find_element(By.XPATH, './/h3[contains(normalize-space(.),"'+text+'"]/ancestor::fieldset')
-        button = list_container.find_element(By.XPATH, './/input[@role="switch"]')
-        scroll_to_view(driver, button)
-        actions.move_to_element(button).click().perform()
-        buffer(click_gap)
-        return True
-    except Exception as e:
-        print_lg("Click Failed! Didn't find '"+text+"'")
-        return False
+    # Try common switch patterns first
+    xpaths = [
+        # Input switch next to label containing text
+        f"//label[contains(normalize-space(string(.)), '{text}')]/preceding-sibling::input[@role='switch' or @type='checkbox']",
+        # Any input switch whose following label contains the text
+        f"//input[@role='switch' or @type='checkbox']/following-sibling::label[contains(normalize-space(string(.)), '{text}')]",
+        # Fallback: click the label itself (works if label toggles the switch)
+        f"//label[contains(normalize-space(string(.)), '{text}')]",
+    ]
+    for xp in xpaths:
+        try:
+            element = driver.find_element(By.XPATH, xp)
+            scroll_to_view(driver, element)
+            actions.move_to_element(element).click().perform()
+            buffer(click_gap)
+            return True
+        except Exception:
+            continue
+    print_lg("Click Failed! Didn't find '"+text+"'")
+    return False
 
 # Find functions
 def find_by_class(driver: WebDriver, class_name: str, time: float=5.0) -> WebElement | Exception:
