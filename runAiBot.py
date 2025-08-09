@@ -232,29 +232,44 @@ def apply_filters() -> None:
 
         # Sort by / Date posted
         if sort_by:
-            if not wait_span_click(driver, sort_by, 6.0):
-                # Some UIs render as radio label with split text
+            # If already selected, skip
+            try:
+                if sort_by == 'Most recent':
+                    already = driver.find_element(By.XPATH, "//input[@name='sort-by-time' and @value='DD' and (@checked or @aria-checked='true')]")
+                else:
+                    already = driver.find_element(By.XPATH, "//input[@name='sort-by-time' and @value='R' and (@checked or @aria-checked='true')]")
+                if already:
+                    pass
+            except Exception:
+                # Try clicking label first, then direct radio
                 if not click_label_contains(sort_by, 8.0):
-                    # Explicit radio by name 'sort-by-time'
                     try:
-                        radio = driver.find_element(By.XPATH, "//input[@name='sort-by-time' and @value='DD']")
+                        radio_value = 'DD' if sort_by == 'Most recent' else 'R'
+                        radio = driver.find_element(By.XPATH, f"//input[@name='sort-by-time' and @value='{radio_value}']")
                         scroll_to_view(driver, radio)
                         radio.click()
                         buffer(recommended_wait)
                     except Exception:
                         pass
         if date_posted:
-            if not wait_span_click(driver, date_posted, 6.0):
+            # If already selected, skip
+            mapping = {
+                'Any time': 'r0',
+                'Past month': 'r2592000',
+                'Past week': 'r604800',
+                'Past 24 hours': 'r86400'
+            }
+            value = mapping.get(date_posted)
+            already_checked = False
+            if value:
+                try:
+                    driver.find_element(By.XPATH, f"//input[@name='f_TPR' and @value='{value}' and (@checked or @aria-checked='true')]")
+                    already_checked = True
+                except Exception:
+                    pass
+            if not already_checked:
                 if not click_label_contains(date_posted, 8.0):
-                    # Explicit radios for date posted
                     try:
-                        mapping = {
-                            'Any time': 'r86400',
-                            'Past month': 'r2592000',
-                            'Past week': 'r604800',
-                            'Past 24 hours': 'r86400'
-                        }
-                        value = mapping.get(date_posted)
                         if value:
                             radio = driver.find_element(By.XPATH, f"//input[@name='f_TPR' and @value='{value}']")
                             scroll_to_view(driver, radio)
