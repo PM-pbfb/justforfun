@@ -987,13 +987,30 @@ def apply_to_jobs(search_terms: list[str]) -> None:
                         ##<
 
                     uploaded = False
-                    # Case 1: Easy Apply Button
-                    if try_xp(driver, ".//button[contains(@class,'jobs-apply-button') and contains(@class, 'artdeco-button--3') and contains(@aria-label, 'Easy')]"):
+                    # Case 1: Easy Apply Button (more robust detection, helps on macOS)
+                    easy_apply_clicked = False
+                    try:
+                        easy_apply_xpath = (
+                            
+                            ".//button[(contains(@class,'jobs-apply-button') and contains(@class,'artdeco-button--3') and contains(@aria-label,'Easy')) "
+                            " or (contains(@class,'jobs-apply-button') and .//span[contains(normalize-space(.), 'Easy Apply')]) "
+                            " or (@data-control-name='jobdetails_topcard_inapply')"
+                            
+                        )
+                        easy_btn = WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.XPATH, easy_apply_xpath)))
+                        scroll_to_view(driver, easy_btn)
+                        easy_btn.click()
+                        easy_apply_clicked = True
+                    except Exception:
+                        easy_apply_clicked = False
+
+                    if easy_apply_clicked:
                         try: 
                             try:
                                 errored = ""
                                 modal = find_by_class(driver, "jobs-easy-apply-modal")
-                                wait_span_click(modal, "Next", 1)
+                                # Give the modal a moment on macOS before searching for Next
+                                wait_span_click(modal, "Next", 3)
                                 # if description != "Unknown":
                                 #     resume = create_custom_resume(description)
                                 resume = "Previous resume"
